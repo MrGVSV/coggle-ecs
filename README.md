@@ -170,10 +170,15 @@ output_structure(self, outfile, indent=3, down='|', level='+', dash='-', space='
 Output the map as a tree (in a folder structure format) into a text file.
 
 ​		*outfile*: The output file
+
 ​		*indent*: The number to indent each level
+
 ​		*down*: The character denoting a change in level
+
 ​		*level*: The character denoting a new parent
+
 ​		*dash*: The character bridging between the level and the node
+
 ​		*space*: The empty space between down characters
 
 ```python
@@ -183,8 +188,11 @@ output_table(self, outfile, use_ticks=True, true_tick='X', false_tick='')
 Output the map as a table into a text file.
 
 ​		*outfile*: The output file
+
 ​		*use_ticks*: Replace True and False with given strings
+
 ​		*true_tick*: Tick to replace True
+
 ​		*false_tick*: Tick to replace False
 
 ```python
